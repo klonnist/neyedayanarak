@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Ham veri onbellegi (OKX'ten yeniden cekilebilir)
+data/*.csv
+
+# Backtest ciktilari (ornek sonuc seti disinda repoya alinmiyor)
+outputs/*
+!outputs/.gitkeep
+!outputs/sample/
+
+# Ortam degiskenleri / gizli bilgiler
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
