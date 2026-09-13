@@ -1,0 +1,49 @@
+{
+  "symbol": "ETH-USDT",
+  "timeframe": "1H",
+  "start": "2023-01-01",
+  "end": "2026-09-01",
+  "params": {
+    "rsi_col": "rsi_14",
+    "swing_lookback": 3,
+    "breakout_lookback": 20,
+    "min_confluence": 3,
+    "atr_period": 14,
+    "atr_stop_mult": 2.0,
+    "atr_target_mult": 3.0,
+    "use_trailing_stop": true,
+    "trailing_atr_mult": 2.5,
+    "allow_short": true
+  },
+  "in_sample_metrics": {
+    "total_return_pct": 5.809102408928846,
+    "annualized_return_pct": 2.235726742789401,
+    "max_drawdown_pct": -8.221270812168836,
+    "sharpe": 0.39679796079816804,
+    "sortino": 0.044605715971544696,
+    "win_rate_pct": 41.17647058823529,
+    "num_trades": 34,
+    "avg_trade_duration_bars": 8.411764705882353
+  },
+  "out_of_sample_metrics": {
+    "total_return_pct": 1.7656554890829401,
+    "annualized_return_pct": 1.611955023878786,
+    "max_drawdown_pct": -3.242743545134119,
+    "sharpe": 0.3982672710625811,
+    "sortino": 0.0573499713245929,
+    "win_rate_pct": 54.54545454545454,
+    "num_trades": 11,
+    "avg_trade_duration_bars": 13.0
+  },
+  "buy_and_hold_out_of_sample": {
+    "total_return_pct": -36.77352063929399,
+    "annualized_return_pct": -34.22013870368541,
+    "max_drawdown_pct": -69.14942770986674,
+    "sharpe": -0.37600812112138104,
+    "sortino": -0.493008278581685,
+    "win_rate_pct": 0.0,
+    "num_trades": 0,
+    "avg_trade_duration_bars": 0.0
+  },
+  "num_candles": 31961
+}

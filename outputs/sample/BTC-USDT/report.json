@@ -1,0 +1,49 @@
+{
+  "symbol": "BTC-USDT",
+  "timeframe": "1H",
+  "start": "2023-01-01",
+  "end": "2026-09-01",
+  "params": {
+    "rsi_col": "rsi_14",
+    "swing_lookback": 3,
+    "breakout_lookback": 20,
+    "min_confluence": 3,
+    "atr_period": 14,
+    "atr_stop_mult": 2.0,
+    "atr_target_mult": 2.0,
+    "use_trailing_stop": true,
+    "trailing_atr_mult": 2.5,
+    "allow_short": true
+  },
+  "in_sample_metrics": {
+    "total_return_pct": 11.66006171891587,
+    "annualized_return_pct": 4.41328702246766,
+    "max_drawdown_pct": -2.564325654517119,
+    "sharpe": 0.902519965984086,
+    "sortino": 0.07472091253954322,
+    "win_rate_pct": 58.82352941176471,
+    "num_trades": 34,
+    "avg_trade_duration_bars": 8.647058823529411
+  },
+  "out_of_sample_metrics": {
+    "total_return_pct": 0.05164345196497777,
+    "annualized_return_pct": 0.04718257749851684,
+    "max_drawdown_pct": -4.230377957065934,
+    "sharpe": 0.033396442889583544,
+    "sortino": 0.0030597395218912365,
+    "win_rate_pct": 50.0,
+    "num_trades": 24,
+    "avg_trade_duration_bars": 8.916666666666666
+  },
+  "buy_and_hold_out_of_sample": {
+    "total_return_pct": -34.70930413937955,
+    "annualized_return_pct": -32.26075384619347,
+    "max_drawdown_pct": -53.736298967403194,
+    "sharpe": -0.7015162502154961,
+    "sortino": -0.9129981968203946,
+    "win_rate_pct": 0.0,
+    "num_trades": 0,
+    "avg_trade_duration_bars": 0.0
+  },
+  "num_candles": 31961
+}
