@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>neyedayanarak — Canlı Sanal İşlem Panosu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>neyedayanarak — Canlı Sanal İşlem Panosu</h1>
+      <div class="sub">Price action + RSI + hacim confluence stratejisi · Son güncelleme: <span id="updated-at">—</span></div>
+    </header>
+
+    <div class="disclaimer">
+      ⚠️ Bu pano tamamen <strong>sanal (paper trading) simülasyondur</strong>: gerçek para veya borsa
+      hesabı kullanılmaz. Her profil sıfırdan 10.000 USDT sanal bakiye ile başlar ve
+      <a href="https://github.com/klonnist/neyedayanarak" style="color:inherit">neyedayanarak</a>
+      reposundaki confluence stratejisiyle OKX genel (public) piyasa verisi üzerinde otomatik
+      pozisyon açıp kapatır. <strong>Yatırım tavsiyesi değildir.</strong>
+    </div>
+
+    <div class="cards" id="cards"></div>
+
+    <section class="panel">
+      <h2 id="chart-title">Equity Eğrisi</h2>
+      <div class="chart-wrap">
+        <canvas id="equity-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Son İşlemler</h2>
+      <div class="empty" id="trades-empty" style="display:none">Henüz kapanmış işlem yok.</div>
+      <table id="trades-table">
+        <thead>
+          <tr>
+            <th>Sembol</th>
+            <th>Yön</th>
+            <th>Giriş</th>
+            <th>Çıkış</th>
+            <th>K/Z</th>
+            <th>Sebep</th>
+            <th>Kapanış (UTC)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <footer>
+      Kaynak kod ve backtest raporu: <a href="https://github.com/klonnist/neyedayanarak">github.com/klonnist/neyedayanarak</a>
+      · Veri kaynağı: OKX public REST API · Bu sayfa GitHub Actions tarafından periyodik olarak güncellenir.
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

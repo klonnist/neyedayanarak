@@ -1,0 +1,50 @@
+name: Canlı Sanal İşlem Panosu Güncelleme
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "live/**"
+      - "src/**"
+      - ".github/workflows/paper_trading.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-trading-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sanal işlem adımını çalıştır
+        run: python -m live.run_paper_trading
+
+      - name: Değişiklikleri commit'le ve push'la
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add live/state docs/data
+          if git diff --cached --quiet; then
+            echo "Degisiklik yok, commit atlaniyor."
+          else
+            git commit -m "canlı pano güncelleme: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push
+          fi

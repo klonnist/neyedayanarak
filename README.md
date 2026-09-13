@@ -9,6 +9,27 @@ sonuçları görselleştirir.
 > amaçlıdır. Backtest sonuçları geçmiş veriye dayanır ve gelecekteki
 > performansı garanti etmez. Bkz. [Bulgular ve riskler](#bulgular-ve-riskler).
 
+## Canlı pano
+
+**[klonnist.github.io/neyedayanarak](https://klonnist.github.io/neyedayanarak/)**
+
+Bu adreste, aynı confluence stratejisinin **tamamen sanal (paper trading)**
+bir hesapla canlı OKX verisi üzerinde nasıl çalıştığını gösteren bir pano
+yayında: `BTC-USDT`/`ETH-USDT` × `1H`/`4H` için 4 ayrı, sıfırdan 10.000 USDT
+sanal bakiyeyle başlayan profil; her biri kendi bakiyesini, açık pozisyonunu,
+kazanma oranını, equity eğrisini ve son işlemlerini gösteriyor.
+
+Pano, [.github/workflows/paper_trading.yml](.github/workflows/paper_trading.yml)
+ile her 15 dakikada bir çalışan bir GitHub Actions job'ı tarafından güncelleniyor:
+[live/run_paper_trading.py](live/run_paper_trading.py) güncel mumları çeker,
+[live/paper_engine.py](live/paper_engine.py) yeni kapanan her mumu bir önceki
+çalıştırmadan kalan durumun (`live/state/*.json`) üzerine işleyip pozisyon
+açar/kapatır, sonuç [docs/data/status.json](docs/data/status.json) olarak
+yazılıp GitHub Pages'e (statik `docs/` klasörü) commit'lenir.
+
+> ⚠️ Gerçek para veya borsa hesabı **kesinlikle kullanılmıyor**; bu tamamen
+> bir simülasyondur ve yatırım tavsiyesi değildir.
+
 ## Ne yapar?
 
 1. **Veri çekme** ([src/data_fetcher.py](src/data_fetcher.py)) — OKX'in public
@@ -179,7 +200,7 @@ ayrı optimize edilmeli ve periyodik olarak yeniden değerlendirilmelidir
 
 ```
 neyedayanarak/
-├── main.py                 # CLI giris noktasi (argparse)
+├── main.py                  # backtest CLI giris noktasi (argparse)
 ├── requirements.txt
 ├── src/
 │   ├── data_fetcher.py      # OKX REST API + pagination + CSV cache
@@ -187,7 +208,17 @@ neyedayanarak/
 │   ├── strategy.py          # price action / RSI / hacim katmanlari + confluence
 │   ├── backtest.py          # backtest motoru, metrikler, optimizasyon
 │   └── visualize.py         # grafikler
+├── live/                    # canli sanal (paper) islem motoru
+│   ├── config.py            # profiller (sembol x zaman dilimi), sabitler
+│   ├── paper_engine.py       # tek profil icin stateful bar-bar isleme
+│   ├── run_paper_trading.py  # GitHub Actions'in cagirdigi giris noktasi
+│   └── state/                # her profilin sanal hesap durumu (JSON, commit'li)
+├── docs/                    # GitHub Pages statik canli pano
+│   ├── index.html, app.js, style.css
+│   └── data/status.json      # live/ tarafindan uretilen pano verisi
+├── .github/workflows/
+│   └── paper_trading.yml     # 15 dk'da bir canli adimi calistirip pano/state'i commit'ler
 ├── data/                    # OKX'ten cekilen ham CSV'ler (gitignore'lu)
 └── outputs/
-    └── sample/               # ornek bir calistirmanin ciktilari (commit'li)
+    └── sample/               # ornek bir backtest calistirmasinin ciktilari (commit'li)
 ```

@@ -19,6 +19,9 @@ outputs/*
 .env
 .env.*
 
+# Canli pano gelistirme/test sirasinda olusan gecici state
+live/_test_state/
+
 # Editor / OS
 .vscode/
 .idea/
