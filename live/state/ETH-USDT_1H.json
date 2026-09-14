@@ -1,8 +1,16 @@
 {
   "balance": 10000.0,
   "initial_balance": 10000.0,
-  "position": null,
-  "last_processed_ts": "2026-09-14 04:00:00+00:00",
+  "position": {
+    "direction": 1,
+    "entry_price": 2516.37,
+    "entry_time": "2026-09-14 05:00:00+00:00",
+    "atr_at_entry": 14.065150777029922,
+    "stop_price": 2488.23969844594,
+    "target_price": 2558.5654523310895,
+    "trailing_extreme": 2516.37
+  },
+  "last_processed_ts": "2026-09-14 05:00:00+00:00",
   "trades": [],
   "equity_curve": [
     {
@@ -60,8 +68,12 @@
     {
       "t": "2026-09-14 04:00:00+00:00",
       "equity": 10000.0
+    },
+    {
+      "t": "2026-09-14 05:00:00+00:00",
+      "equity": 10000.0
     }
   ],
-  "last_price": 2514.86,
-  "updated_at": "2026-09-14T05:54:36.678890+00:00"
+  "last_price": 2516.37,
+  "updated_at": "2026-09-14T06:16:58.460639+00:00"
 }
