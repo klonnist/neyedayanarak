@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:56:57.858697+00:00",
+  "generated_at": "2026-09-14T04:14:31.702725+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -19,10 +19,10 @@
         "atr_at_entry": 312.47837453598,
         "stop_price": 76973.34325092804,
         "target_price": 78535.73512360794,
-        "trailing_extreme": 77726.5
+        "trailing_extreme": 77864.3
       },
-      "last_price": 77598.3,
-      "updated_at": "2026-09-14T03:56:44.645775+00:00",
+      "last_price": 77593.4,
+      "updated_at": "2026-09-14T04:14:16.483555+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -71,6 +71,10 @@
         {
           "t": "2026-09-14 02:00:00+00:00",
           "equity": 10000.0
+        },
+        {
+          "t": "2026-09-14 03:00:00+00:00",
+          "equity": 10000.0
         }
       ]
     },
@@ -84,9 +88,17 @@
       "total_pnl_pct": 0.0,
       "win_rate_pct": 0.0,
       "num_trades": 0,
-      "open_position": null,
-      "last_price": 76836.0,
-      "updated_at": "2026-09-14T03:56:49.082894+00:00",
+      "open_position": {
+        "direction": 1,
+        "entry_price": 77593.4,
+        "entry_time": "2026-09-14 00:00:00+00:00",
+        "atr_at_entry": 686.0103036160459,
+        "stop_price": 76221.3793927679,
+        "target_price": 79651.43091084814,
+        "trailing_extreme": 77864.3
+      },
+      "last_price": 77593.4,
+      "updated_at": "2026-09-14T04:14:21.546876+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -98,6 +110,10 @@
         },
         {
           "t": "2026-09-13 20:00:00+00:00",
+          "equity": 10000.0
+        },
+        {
+          "t": "2026-09-14 00:00:00+00:00",
           "equity": 10000.0
         }
       ]
@@ -113,8 +129,8 @@
       "win_rate_pct": 0.0,
       "num_trades": 0,
       "open_position": null,
-      "last_price": 2511.07,
-      "updated_at": "2026-09-14T03:56:53.574872+00:00",
+      "last_price": 2512.85,
+      "updated_at": "2026-09-14T04:14:26.617816+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -163,6 +179,10 @@
         {
           "t": "2026-09-14 02:00:00+00:00",
           "equity": 10000.0
+        },
+        {
+          "t": "2026-09-14 03:00:00+00:00",
+          "equity": 10000.0
         }
       ]
     },
@@ -177,8 +197,8 @@
       "win_rate_pct": 0.0,
       "num_trades": 0,
       "open_position": null,
-      "last_price": 2476.89,
-      "updated_at": "2026-09-14T03:56:57.858353+00:00",
+      "last_price": 2512.85,
+      "updated_at": "2026-09-14T04:14:31.702313+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -190,6 +210,10 @@
         },
         {
           "t": "2026-09-13 20:00:00+00:00",
+          "equity": 10000.0
+        },
+        {
+          "t": "2026-09-14 00:00:00+00:00",
           "equity": 10000.0
         }
       ]
