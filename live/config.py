@@ -41,7 +41,10 @@ LOOKBACK_CANDLES = 1500
 DEFAULT_STRATEGY_PARAMS = StrategyParams()
 
 MAX_EQUITY_POINTS = 1000
-MAX_RECENT_TRADES = 100
+# Strateji dusuk frekansli oldugu icin (bkz. README) bu limite pratikte
+# uzun sure ulasilmaz; panoda "gecmis islemler" fiilen tam gecmisi gosterir.
+# Tam/sinirsiz gecmis her zaman live/state/<profil>.json icinde durur.
+MAX_RECENT_TRADES = 500
 
 STATE_DIR = "live/state"
 DASHBOARD_DATA_PATH = "docs/data/status.json"

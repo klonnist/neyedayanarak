@@ -31,22 +31,30 @@
     </section>
 
     <section class="panel">
-      <h2>Son İşlemler</h2>
-      <div class="empty" id="trades-empty" style="display:none">Henüz kapanmış işlem yok.</div>
+      <div class="panel-header">
+        <h2>Geçmiş İşlemler</h2>
+        <select id="trades-filter"><option value="all">Tüm profiller</option></select>
+      </div>
+      <div class="empty" id="trades-empty" style="display:none">Henüz kapanmış işlem yok — sinyal üretilip pozisyon açılıp kapandığında burada listelenecek.</div>
+      <div style="overflow-x:auto">
       <table id="trades-table">
         <thead>
           <tr>
-            <th>Sembol</th>
+            <th>Profil</th>
             <th>Yön</th>
-            <th>Giriş</th>
-            <th>Çıkış</th>
+            <th>Sonuç</th>
+            <th>Giriş (UTC)</th>
+            <th>Giriş Fiyatı</th>
+            <th>Çıkış (UTC)</th>
+            <th>Çıkış Fiyatı</th>
+            <th>Süre</th>
             <th>K/Z</th>
-            <th>Sebep</th>
-            <th>Kapanış (UTC)</th>
+            <th>Kapanış Sebebi</th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
+      </div>
     </section>
 
     <footer>

@@ -55,6 +55,7 @@ def _close_position(position: dict, exit_price: float, exit_time, reason: str, f
         "exit_reason": reason,
         "pnl_pct": net_pnl_pct * 100,
         "pnl_usdt": new_balance - balance,
+        "result": "WIN" if net_pnl_pct > 0 else ("LOSS" if net_pnl_pct < 0 else "BE"),
     }
     return new_balance, trade
 

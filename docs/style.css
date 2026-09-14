@@ -128,6 +128,36 @@ section.panel h2 {
   margin: 0 0 12px;
 }
 
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.panel-header h2 { margin: 0; }
+
+.panel-header select {
+  background: #1f2430;
+  color: var(--text);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.result-badge.win { background: rgba(38, 166, 154, 0.18); color: var(--green); }
+.result-badge.loss { background: rgba(239, 83, 80, 0.18); color: var(--red); }
+.result-badge.be { background: rgba(139, 147, 163, 0.18); color: var(--muted); }
+
 table {
   width: 100%;
   border-collapse: collapse;

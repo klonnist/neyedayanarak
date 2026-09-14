@@ -96,25 +96,71 @@ function renderChart(profile) {
   });
 }
 
+const EXIT_REASON_LABELS = {
+  take_profit: "Take-profit",
+  stop_loss: "Stop-loss",
+  trailing_stop: "Trailing stop",
+  opposite_signal: "Ters sinyal",
+  end_of_data: "Veri sonu",
+};
+
+function fmtDateTime(iso) {
+  return new Date(iso).toLocaleString("tr-TR", { timeZone: "UTC", hour12: false }) + " UTC";
+}
+
+function fmtDuration(entryIso, exitIso) {
+  const ms = new Date(exitIso) - new Date(entryIso);
+  const hours = ms / 3600000;
+  if (hours < 24) return `${hours.toFixed(1)} sa`;
+  return `${(hours / 24).toFixed(1)} gün`;
+}
+
+function populateTradesFilter(data) {
+  const select = document.getElementById("trades-filter");
+  const current = select.value || "all";
+  select.innerHTML = '<option value="all">Tüm profiller</option>';
+  data.profiles.forEach((p) => {
+    const opt = document.createElement("option");
+    opt.value = p.id;
+    opt.textContent = `${p.symbol} ${p.timeframe}`;
+    select.appendChild(opt);
+  });
+  select.value = current;
+  select.onchange = () => renderTrades(state.data);
+}
+
 function renderTrades(data) {
   const tbody = document.querySelector("#trades-table tbody");
   tbody.innerHTML = "";
-  if (!data.recent_trades.length) {
+
+  const filter = document.getElementById("trades-filter").value;
+  const trades = filter === "all"
+    ? data.recent_trades
+    : data.recent_trades.filter((t) => `${t.symbol}_${t.timeframe}` === filter);
+
+  if (!trades.length) {
     document.getElementById("trades-empty").style.display = "block";
+    document.querySelector("#trades-table").style.display = "none";
     return;
   }
   document.getElementById("trades-empty").style.display = "none";
+  document.querySelector("#trades-table").style.display = "table";
 
-  data.recent_trades.forEach((t) => {
+  trades.forEach((t) => {
     const tr = document.createElement("tr");
+    const resultClass = t.result === "WIN" ? "win" : t.result === "LOSS" ? "loss" : "be";
+    const resultLabel = t.result === "WIN" ? "KAZANDI" : t.result === "LOSS" ? "KAYBETTİ" : "BAŞABAŞ";
     tr.innerHTML = `
       <td>${t.symbol} <span class="badge">${t.timeframe}</span></td>
       <td>${t.direction === "long" ? "LONG" : "SHORT"}</td>
+      <td><span class="result-badge ${resultClass}">${resultLabel}</span></td>
+      <td>${fmtDateTime(t.entry_time)}</td>
       <td>${Number(t.entry_price).toFixed(2)}</td>
+      <td>${fmtDateTime(t.exit_time)}</td>
       <td>${Number(t.exit_price).toFixed(2)}</td>
+      <td>${fmtDuration(t.entry_time, t.exit_time)}</td>
       <td class="${pnlClass(t.pnl_pct)}">${fmtPct(t.pnl_pct)}</td>
-      <td>${t.exit_reason}</td>
-      <td>${new Date(t.exit_time).toLocaleString("tr-TR", { timeZone: "UTC", hour12: false })} UTC</td>
+      <td>${EXIT_REASON_LABELS[t.exit_reason] || t.exit_reason}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -128,6 +174,7 @@ async function init() {
     renderHeader(data);
     renderCards(data);
     if (data.profiles[0]) renderChart(data.profiles[0]);
+    populateTradesFilter(data);
     renderTrades(data);
   } catch (err) {
     document.getElementById("cards").innerHTML = `<div class="empty">Veri yüklenemedi: ${err.message}</div>`;
