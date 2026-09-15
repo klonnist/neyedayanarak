@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:54:34.280178+00:00",
+  "generated_at": "2026-09-15T11:11:15.464648+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -21,8 +21,8 @@
         "target_price": 76144.49566685712,
         "trailing_extreme": 76704.0
       },
-      "last_price": 76980.6,
-      "updated_at": "2026-09-15T10:54:17.491955+00:00",
+      "last_price": 77050.1,
+      "updated_at": "2026-09-15T11:11:02.515659+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -195,6 +195,10 @@
         {
           "t": "2026-09-15 09:00:00+00:00",
           "equity": 10297.348216125562
+        },
+        {
+          "t": "2026-09-15 10:00:00+00:00",
+          "equity": 10297.348216125562
         }
       ]
     },
@@ -210,7 +214,7 @@
       "num_trades": 1,
       "open_position": null,
       "last_price": 76931.6,
-      "updated_at": "2026-09-15T10:54:23.027982+00:00",
+      "updated_at": "2026-09-15T11:11:06.837296+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -269,8 +273,8 @@
       "win_rate_pct": 25.0,
       "num_trades": 4,
       "open_position": null,
-      "last_price": 2474.46,
-      "updated_at": "2026-09-15T10:54:28.599870+00:00",
+      "last_price": 2483.85,
+      "updated_at": "2026-09-15T11:11:11.214411+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -443,6 +447,10 @@
         {
           "t": "2026-09-15 09:00:00+00:00",
           "equity": 9822.825243943316
+        },
+        {
+          "t": "2026-09-15 10:00:00+00:00",
+          "equity": 9822.825243943316
         }
       ]
     },
@@ -458,7 +466,7 @@
       "num_trades": 1,
       "open_position": null,
       "last_price": 2474.32,
-      "updated_at": "2026-09-15T10:54:34.279680+00:00",
+      "updated_at": "2026-09-15T11:11:15.464202+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
