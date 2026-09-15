@@ -1,16 +1,8 @@
 {
-  "balance": 9877.979194779917,
+  "balance": 9710.959908433331,
   "initial_balance": 10000.0,
-  "position": {
-    "direction": -1,
-    "entry_price": 2408.13,
-    "entry_time": "2026-09-15 14:00:00+00:00",
-    "atr_at_entry": 22.975648229243188,
-    "stop_price": 2454.0812964584866,
-    "target_price": 2339.2030553122704,
-    "trailing_extreme": 2389.0
-  },
-  "last_processed_ts": "2026-09-15 16:00:00+00:00",
+  "position": null,
+  "last_processed_ts": "2026-09-15 17:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -74,6 +66,19 @@
       "pnl_pct": 0.5614876521457869,
       "pnl_usdt": 55.153950836600416,
       "result": "WIN",
+      "symbol": "ETH-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "short",
+      "entry_time": "2026-09-15 14:00:00+00:00",
+      "exit_time": "2026-09-15 17:00:00+00:00",
+      "entry_price": 2408.13,
+      "exit_price": 2446.439120573108,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -1.6908244394242877,
+      "pnl_usdt": -167.01928634658543,
+      "result": "LOSS",
       "symbol": "ETH-USDT",
       "timeframe": "1H"
     }
@@ -278,8 +283,12 @@
     {
       "t": "2026-09-15 16:00:00+00:00",
       "equity": 9877.979194779917
+    },
+    {
+      "t": "2026-09-15 17:00:00+00:00",
+      "equity": 9710.959908433331
     }
   ],
-  "last_price": 2422.29,
-  "updated_at": "2026-09-15T17:52:48.942847+00:00"
+  "last_price": 2441.16,
+  "updated_at": "2026-09-15T18:12:13.478703+00:00"
 }
