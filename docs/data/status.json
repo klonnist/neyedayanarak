@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:51:46.301038+00:00",
+  "generated_at": "2026-09-15T00:16:43.429777+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -19,10 +19,10 @@
         "atr_at_entry": 414.7881864352442,
         "stop_price": 79597.47637287049,
         "target_price": 77523.53544069426,
-        "trailing_extreme": 78503.3
+        "trailing_extreme": 78140.8
       },
-      "last_price": 78557.6,
-      "updated_at": "2026-09-14T23:51:29.443766+00:00",
+      "last_price": 78195.7,
+      "updated_at": "2026-09-15T00:16:28.212899+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -151,6 +151,10 @@
         {
           "t": "2026-09-14 22:00:00+00:00",
           "equity": 10147.191458545178
+        },
+        {
+          "t": "2026-09-14 23:00:00+00:00",
+          "equity": 10147.191458545178
         }
       ]
     },
@@ -171,10 +175,10 @@
         "atr_at_entry": 686.0103036160459,
         "stop_price": 76221.3793927679,
         "target_price": 79651.43091084814,
-        "trailing_extreme": 79328.9
+        "trailing_extreme": 79600.0
       },
-      "last_price": 78996.7,
-      "updated_at": "2026-09-14T23:51:35.093171+00:00",
+      "last_price": 78195.7,
+      "updated_at": "2026-09-15T00:16:33.339254+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -207,6 +211,10 @@
         {
           "t": "2026-09-14 16:00:00+00:00",
           "equity": 10000.0
+        },
+        {
+          "t": "2026-09-14 20:00:00+00:00",
+          "equity": 10000.0
         }
       ]
     },
@@ -221,8 +229,8 @@
       "win_rate_pct": 33.3,
       "num_trades": 3,
       "open_position": null,
-      "last_price": 2533.46,
-      "updated_at": "2026-09-14T23:51:40.741480+00:00",
+      "last_price": 2515.75,
+      "updated_at": "2026-09-15T00:16:38.334275+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -351,6 +359,10 @@
         {
           "t": "2026-09-14 22:00:00+00:00",
           "equity": 10001.43324136829
+        },
+        {
+          "t": "2026-09-14 23:00:00+00:00",
+          "equity": 10001.43324136829
         }
       ]
     },
@@ -358,23 +370,15 @@
       "id": "ETH-USDT_4H",
       "symbol": "ETH-USDT",
       "timeframe": "4H",
-      "balance": 10000.0,
+      "balance": 9949.0,
       "initial_balance": 10000.0,
-      "total_pnl": 0.0,
-      "total_pnl_pct": 0.0,
+      "total_pnl": -51.0,
+      "total_pnl_pct": -0.51,
       "win_rate_pct": 0.0,
-      "num_trades": 0,
-      "open_position": {
-        "direction": 1,
-        "entry_price": 2539.72,
-        "entry_time": "2026-09-14 16:00:00+00:00",
-        "atr_at_entry": 34.27732224577696,
-        "stop_price": 2471.165355508446,
-        "target_price": 2642.5519667373305,
-        "trailing_extreme": 2549.65
-      },
-      "last_price": 2539.72,
-      "updated_at": "2026-09-14T23:51:46.300602+00:00",
+      "num_trades": 1,
+      "open_position": null,
+      "last_price": 2515.75,
+      "updated_at": "2026-09-15T00:16:43.429324+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -407,6 +411,10 @@
         {
           "t": "2026-09-14 16:00:00+00:00",
           "equity": 10000.0
+        },
+        {
+          "t": "2026-09-14 20:00:00+00:00",
+          "equity": 9948.998213919478
         }
       ]
     }
@@ -450,6 +458,19 @@
       "result": "WIN",
       "symbol": "ETH-USDT",
       "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-14 16:00:00+00:00",
+      "exit_time": "2026-09-14 20:00:00+00:00",
+      "entry_price": 2539.72,
+      "exit_price": 2529.3066943855574,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -0.5100178608052229,
+      "pnl_usdt": -51.001786080521924,
+      "result": "LOSS",
+      "symbol": "ETH-USDT",
+      "timeframe": "4H"
     },
     {
       "direction": "long",
