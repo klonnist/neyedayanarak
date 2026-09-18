@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T03:54:37.898803+00:00",
+  "generated_at": "2026-09-18T04:11:32.332396+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -19,10 +19,10 @@
         "atr_at_entry": 475.8442924647377,
         "stop_price": 75828.41141507053,
         "target_price": 78207.63287739422,
-        "trailing_extreme": 77039.6
+        "trailing_extreme": 77599.8
       },
-      "last_price": 76979.8,
-      "updated_at": "2026-09-18T03:54:24.526776+00:00",
+      "last_price": 77379.5,
+      "updated_at": "2026-09-18T04:11:18.908669+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -455,6 +455,10 @@
         {
           "t": "2026-09-18 02:00:00+00:00",
           "equity": 10005.174105044667
+        },
+        {
+          "t": "2026-09-18 03:00:00+00:00",
+          "equity": 10005.174105044667
         }
       ]
     },
@@ -462,23 +466,15 @@
       "id": "BTC-USDT_4H",
       "symbol": "BTC-USDT",
       "timeframe": "4H",
-      "balance": 10027.58,
+      "balance": 9820.09,
       "initial_balance": 10000.0,
-      "total_pnl": 27.58,
-      "total_pnl_pct": 0.276,
-      "win_rate_pct": 100.0,
-      "num_trades": 1,
-      "open_position": {
-        "direction": -1,
-        "entry_price": 75775.1,
-        "entry_time": "2026-09-16 04:00:00+00:00",
-        "atr_at_entry": 884.9001989906237,
-        "stop_price": 77544.90039798126,
-        "target_price": 73120.39940302813,
-        "trailing_extreme": 75055.0
-      },
-      "last_price": 76419.3,
-      "updated_at": "2026-09-18T03:54:28.973800+00:00",
+      "total_pnl": -179.91,
+      "total_pnl_pct": -1.799,
+      "win_rate_pct": 50.0,
+      "num_trades": 2,
+      "open_position": null,
+      "last_price": 77379.5,
+      "updated_at": "2026-09-18T04:11:23.293993+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -587,6 +583,10 @@
         {
           "t": "2026-09-17 20:00:00+00:00",
           "equity": 10027.577196122336
+        },
+        {
+          "t": "2026-09-18 00:00:00+00:00",
+          "equity": 9820.088258905858
         }
       ]
     },
@@ -607,10 +607,10 @@
         "atr_at_entry": 19.128697699410864,
         "stop_price": 2415.3726046011784,
         "target_price": 2511.016093098233,
-        "trailing_extreme": 2466.98
+        "trailing_extreme": 2485.38
       },
-      "last_price": 2462.91,
-      "updated_at": "2026-09-18T03:54:33.420649+00:00",
+      "last_price": 2479.4,
+      "updated_at": "2026-09-18T04:11:27.689543+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -1043,6 +1043,10 @@
         {
           "t": "2026-09-18 02:00:00+00:00",
           "equity": 9695.714087132528
+        },
+        {
+          "t": "2026-09-18 03:00:00+00:00",
+          "equity": 9695.714087132528
         }
       ]
     },
@@ -1057,8 +1061,8 @@
       "win_rate_pct": 0.0,
       "num_trades": 2,
       "open_position": null,
-      "last_price": 2447.65,
-      "updated_at": "2026-09-18T03:54:37.898380+00:00",
+      "last_price": 2479.4,
+      "updated_at": "2026-09-18T04:11:32.331964+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -1167,11 +1171,28 @@
         {
           "t": "2026-09-17 20:00:00+00:00",
           "equity": 9793.249131477356
+        },
+        {
+          "t": "2026-09-18 00:00:00+00:00",
+          "equity": 9793.249131477356
         }
       ]
     }
   ],
   "recent_trades": [
+    {
+      "direction": "short",
+      "entry_time": "2026-09-16 04:00:00+00:00",
+      "exit_time": "2026-09-18 00:00:00+00:00",
+      "entry_price": 75775.1,
+      "exit_price": 77267.25049747656,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -2.0691831452238962,
+      "pnl_usdt": -207.488937216478,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "4H"
+    },
     {
       "direction": "short",
       "entry_time": "2026-09-17 17:00:00+00:00",
