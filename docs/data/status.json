@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T14:25:21.768762+00:00",
+  "generated_at": "2026-09-19T14:39:03.753158+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -22,7 +22,7 @@
         "trailing_extreme": 81748.0
       },
       "last_price": 81357.1,
-      "updated_at": "2026-09-19T14:25:06.315299+00:00",
+      "updated_at": "2026-09-19T14:38:47.328885+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -618,7 +618,7 @@
         "trailing_extreme": 81748.0
       },
       "last_price": 81308.2,
-      "updated_at": "2026-09-19T14:25:11.461760+00:00",
+      "updated_at": "2026-09-19T14:38:52.850307+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -786,7 +786,7 @@
         "trailing_extreme": 2662.75
       },
       "last_price": 2638.38,
-      "updated_at": "2026-09-19T14:25:16.553924+00:00",
+      "updated_at": "2026-09-19T14:38:58.344374+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -1382,7 +1382,7 @@
         "trailing_extreme": 2662.75
       },
       "last_price": 2639.71,
-      "updated_at": "2026-09-19T14:25:21.768157+00:00",
+      "updated_at": "2026-09-19T14:39:03.752650+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
