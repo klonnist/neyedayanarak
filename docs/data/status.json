@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:52:08.504876+00:00",
+  "generated_at": "2026-09-20T23:10:04.143046+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -12,9 +12,17 @@
       "total_pnl_pct": 3.989,
       "win_rate_pct": 58.3,
       "num_trades": 12,
-      "open_position": null,
-      "last_price": 80940.4,
-      "updated_at": "2026-09-20T22:51:55.056026+00:00",
+      "open_position": {
+        "direction": 1,
+        "entry_price": 81211.2,
+        "entry_time": "2026-09-20 22:00:00+00:00",
+        "atr_at_entry": 339.56350245869004,
+        "stop_price": 80532.07299508262,
+        "target_price": 82229.89050737607,
+        "trailing_extreme": 81299.9
+      },
+      "last_price": 81211.2,
+      "updated_at": "2026-09-20T23:09:48.744206+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -715,6 +723,10 @@
         {
           "t": "2026-09-20 21:00:00+00:00",
           "equity": 10398.91913372644
+        },
+        {
+          "t": "2026-09-20 22:00:00+00:00",
+          "equity": 10398.91913372644
         }
       ]
     },
@@ -738,7 +750,7 @@
         "trailing_extreme": 81953.1
       },
       "last_price": 81186.7,
-      "updated_at": "2026-09-20T22:51:59.581267+00:00",
+      "updated_at": "2026-09-20T23:09:53.925893+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -929,8 +941,8 @@
       "win_rate_pct": 46.7,
       "num_trades": 15,
       "open_position": null,
-      "last_price": 2631.07,
-      "updated_at": "2026-09-20T22:52:03.993712+00:00",
+      "last_price": 2639.39,
+      "updated_at": "2026-09-20T23:09:59.064480+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -1631,6 +1643,10 @@
         {
           "t": "2026-09-20 21:00:00+00:00",
           "equity": 10012.288666491015
+        },
+        {
+          "t": "2026-09-20 22:00:00+00:00",
+          "equity": 10012.288666491015
         }
       ]
     },
@@ -1654,7 +1670,7 @@
         "trailing_extreme": 2668.99
       },
       "last_price": 2633.26,
-      "updated_at": "2026-09-20T22:52:08.504377+00:00",
+      "updated_at": "2026-09-20T23:10:04.142450+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
