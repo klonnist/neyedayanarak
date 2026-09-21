@@ -1,16 +1,16 @@
 {
-  "balance": 9820.088258905858,
+  "balance": 10062.650973634201,
   "initial_balance": 10000.0,
   "position": {
     "direction": 1,
-    "entry_price": 80728.7,
-    "entry_time": "2026-09-18 12:00:00+00:00",
-    "atr_at_entry": 1008.6874757805201,
-    "stop_price": 78711.32504843896,
-    "target_price": 83754.76242734156,
-    "trailing_extreme": 82099.0
+    "entry_price": 84884.9,
+    "entry_time": "2026-09-21 08:00:00+00:00",
+    "atr_at_entry": 1000.0873853768269,
+    "stop_price": 82884.72522924634,
+    "target_price": 87885.16215613048,
+    "trailing_extreme": 85325.2
   },
-  "last_processed_ts": "2026-09-21 04:00:00+00:00",
+  "last_processed_ts": "2026-09-21 08:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -35,6 +35,19 @@
       "pnl_pct": -2.0691831452238962,
       "pnl_usdt": -207.488937216478,
       "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "4H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-18 12:00:00+00:00",
+      "exit_time": "2026-09-21 08:00:00+00:00",
+      "entry_price": 80728.7,
+      "exit_price": 82803.4813105487,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": 2.470066544548233,
+      "pnl_usdt": 242.56271472834305,
+      "result": "WIN",
       "symbol": "BTC-USDT",
       "timeframe": "4H"
     }
@@ -227,8 +240,12 @@
     {
       "t": "2026-09-21 04:00:00+00:00",
       "equity": 9820.088258905858
+    },
+    {
+      "t": "2026-09-21 08:00:00+00:00",
+      "equity": 10062.650973634201
     }
   ],
-  "last_price": 81722.0,
-  "updated_at": "2026-09-21T11:56:00.576435+00:00"
+  "last_price": 84884.9,
+  "updated_at": "2026-09-21T12:14:18.527225+00:00"
 }
