@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:57:31.412876+00:00",
+  "generated_at": "2026-09-23T16:15:10.852898+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -21,8 +21,8 @@
         "target_price": 82736.75368714817,
         "trailing_extreme": 83856.4
       },
-      "last_price": 84534.9,
-      "updated_at": "2026-09-23T15:57:15.199943+00:00",
+      "last_price": 84000.1,
+      "updated_at": "2026-09-23T16:14:54.026959+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -983,6 +983,10 @@
         {
           "t": "2026-09-23 14:00:00+00:00",
           "equity": 10668.670639537719
+        },
+        {
+          "t": "2026-09-23 15:00:00+00:00",
+          "equity": 10668.670639537719
         }
       ]
     },
@@ -990,23 +994,15 @@
       "id": "BTC-USDT_4H",
       "symbol": "BTC-USDT",
       "timeframe": "4H",
-      "balance": 10062.65,
+      "balance": 10054.23,
       "initial_balance": 10000.0,
-      "total_pnl": 62.65,
-      "total_pnl_pct": 0.627,
-      "win_rate_pct": 66.7,
-      "num_trades": 3,
-      "open_position": {
-        "direction": 1,
-        "entry_price": 84884.9,
-        "entry_time": "2026-09-21 08:00:00+00:00",
-        "atr_at_entry": 1000.0873853768269,
-        "stop_price": 82884.72522924634,
-        "target_price": 87885.16215613048,
-        "trailing_extreme": 87399.0
-      },
-      "last_price": 85658.7,
-      "updated_at": "2026-09-23T15:57:20.609716+00:00",
+      "total_pnl": 54.23,
+      "total_pnl_pct": 0.542,
+      "win_rate_pct": 50.0,
+      "num_trades": 4,
+      "open_position": null,
+      "last_price": 84000.1,
+      "updated_at": "2026-09-23T16:14:59.823089+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -1247,6 +1243,10 @@
         {
           "t": "2026-09-23 08:00:00+00:00",
           "equity": 10062.650973634201
+        },
+        {
+          "t": "2026-09-23 12:00:00+00:00",
+          "equity": 10054.233904588098
         }
       ]
     },
@@ -1269,8 +1269,8 @@
         "target_price": 2606.1541574303446,
         "trailing_extreme": 2647.59
       },
-      "last_price": 2676.54,
-      "updated_at": "2026-09-23T15:57:25.965053+00:00",
+      "last_price": 2656.47,
+      "updated_at": "2026-09-23T16:15:05.209110+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -2231,6 +2231,10 @@
         {
           "t": "2026-09-23 14:00:00+00:00",
           "equity": 9893.930178988572
+        },
+        {
+          "t": "2026-09-23 15:00:00+00:00",
+          "equity": 9893.930178988572
         }
       ]
     },
@@ -2238,23 +2242,15 @@
       "id": "ETH-USDT_4H",
       "symbol": "ETH-USDT",
       "timeframe": "4H",
-      "balance": 10269.82,
+      "balance": 10160.57,
       "initial_balance": 10000.0,
-      "total_pnl": 269.82,
-      "total_pnl_pct": 2.698,
-      "win_rate_pct": 33.3,
-      "num_trades": 3,
-      "open_position": {
-        "direction": 1,
-        "entry_price": 2725.55,
-        "entry_time": "2026-09-21 08:00:00+00:00",
-        "atr_at_entry": 43.355940094448435,
-        "stop_price": 2638.8381198111033,
-        "target_price": 2855.6178202833453,
-        "trailing_extreme": 2807.67
-      },
-      "last_price": 2728.13,
-      "updated_at": "2026-09-23T15:57:31.412134+00:00",
+      "total_pnl": 160.57,
+      "total_pnl_pct": 1.606,
+      "win_rate_pct": 25.0,
+      "num_trades": 4,
+      "open_position": null,
+      "last_price": 2656.47,
+      "updated_at": "2026-09-23T16:15:10.852096+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -2495,11 +2491,41 @@
         {
           "t": "2026-09-23 08:00:00+00:00",
           "equity": 10269.819634869413
+        },
+        {
+          "t": "2026-09-23 12:00:00+00:00",
+          "equity": 10160.565528114514
         }
       ]
     }
   ],
   "recent_trades": [
+    {
+      "direction": "long",
+      "entry_time": "2026-09-21 08:00:00+00:00",
+      "exit_time": "2026-09-23 12:00:00+00:00",
+      "entry_price": 84884.9,
+      "exit_price": 84898.78153655793,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -0.08364663614147663,
+      "pnl_usdt": -8.417069046103279,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "4H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-21 08:00:00+00:00",
+      "exit_time": "2026-09-23 12:00:00+00:00",
+      "entry_price": 2725.55,
+      "exit_price": 2699.280149763879,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -1.0638366654848186,
+      "pnl_usdt": -109.25410675489911,
+      "result": "LOSS",
+      "symbol": "ETH-USDT",
+      "timeframe": "4H"
+    },
     {
       "direction": "long",
       "entry_time": "2026-09-22 08:00:00+00:00",
