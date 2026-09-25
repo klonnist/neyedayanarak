@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:55:27.210835+00:00",
+  "generated_at": "2026-09-25T15:12:27.155893+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -13,8 +13,8 @@
       "win_rate_pct": 55.0,
       "num_trades": 20,
       "open_position": null,
-      "last_price": 83934.0,
-      "updated_at": "2026-09-25T14:55:10.694499+00:00",
+      "last_price": 84013.0,
+      "updated_at": "2026-09-25T15:12:14.228156+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -1163,6 +1163,10 @@
         {
           "t": "2026-09-25 13:00:00+00:00",
           "equity": 10567.35360103211
+        },
+        {
+          "t": "2026-09-25 14:00:00+00:00",
+          "equity": 10567.35360103211
         }
       ]
     },
@@ -1186,7 +1190,7 @@
         "trailing_extreme": 85258.8
       },
       "last_price": 84580.7,
-      "updated_at": "2026-09-25T14:55:16.067345+00:00",
+      "updated_at": "2026-09-25T15:12:18.577164+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -1482,23 +1486,23 @@
       "id": "ETH-USDT_1H",
       "symbol": "ETH-USDT",
       "timeframe": "1H",
-      "balance": 9769.93,
+      "balance": 9715.54,
       "initial_balance": 10000.0,
-      "total_pnl": -230.07,
-      "total_pnl_pct": -2.301,
-      "win_rate_pct": 38.1,
-      "num_trades": 21,
+      "total_pnl": -284.46,
+      "total_pnl_pct": -2.845,
+      "win_rate_pct": 36.4,
+      "num_trades": 22,
       "open_position": {
         "direction": 1,
-        "entry_price": 2690.04,
-        "entry_time": "2026-09-24 18:00:00+00:00",
-        "atr_at_entry": 25.974599262645015,
-        "stop_price": 2638.09080147471,
-        "target_price": 2767.963797787935,
-        "trailing_extreme": 2742.69
+        "entry_price": 2695.75,
+        "entry_time": "2026-09-25 14:00:00+00:00",
+        "atr_at_entry": 23.408269698219076,
+        "stop_price": 2648.933460603562,
+        "target_price": 2765.9748090946573,
+        "trailing_extreme": 2698.45
       },
-      "last_price": 2695.32,
-      "updated_at": "2026-09-25T14:55:21.665653+00:00",
+      "last_price": 2695.75,
+      "updated_at": "2026-09-25T15:12:22.873124+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 15:00:00+00:00",
@@ -2647,6 +2651,10 @@
         {
           "t": "2026-09-25 13:00:00+00:00",
           "equity": 9769.93186436048
+        },
+        {
+          "t": "2026-09-25 14:00:00+00:00",
+          "equity": 9715.538711338926
         }
       ]
     },
@@ -2670,7 +2678,7 @@
         "trailing_extreme": 2742.69
       },
       "last_price": 2717.4,
-      "updated_at": "2026-09-25T14:55:27.209949+00:00",
+      "updated_at": "2026-09-25T15:12:27.154981+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -2964,6 +2972,19 @@
     }
   ],
   "recent_trades": [
+    {
+      "direction": "long",
+      "entry_time": "2026-09-24 18:00:00+00:00",
+      "exit_time": "2026-09-25 14:00:00+00:00",
+      "entry_price": 2690.04,
+      "exit_price": 2677.7535018433873,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -0.55674035169041,
+      "pnl_usdt": -54.3931530215541,
+      "result": "LOSS",
+      "symbol": "ETH-USDT",
+      "timeframe": "1H"
+    },
     {
       "direction": "short",
       "entry_time": "2026-09-25 04:00:00+00:00",
