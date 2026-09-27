@@ -1,16 +1,8 @@
 {
-  "balance": 10593.900847737978,
+  "balance": 10494.614394878781,
   "initial_balance": 10000.0,
-  "position": {
-    "direction": 1,
-    "entry_price": 84791.7,
-    "entry_time": "2026-09-27 08:00:00+00:00",
-    "atr_at_entry": 224.05174564107028,
-    "stop_price": 84343.59650871786,
-    "target_price": 85463.8552369232,
-    "trailing_extreme": 85114.3
-  },
-  "last_processed_ts": "2026-09-27 11:00:00+00:00",
+  "position": null,
+  "last_processed_ts": "2026-09-27 16:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -295,6 +287,32 @@
       "pnl_pct": 0.7600698180316613,
       "pnl_usdt": 79.91364341179542,
       "result": "WIN",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-27 08:00:00+00:00",
+      "exit_time": "2026-09-27 13:00:00+00:00",
+      "entry_price": 84791.7,
+      "exit_price": 84639.67063589733,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -0.27929745966016595,
+      "pnl_usdt": -29.588495946649346,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-27 13:00:00+00:00",
+      "exit_time": "2026-09-27 14:00:00+00:00",
+      "entry_price": 85026.9,
+      "exit_price": 84550.96268242813,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -0.6597491118362163,
+      "pnl_usdt": -69.69795691254694,
+      "result": "LOSS",
       "symbol": "BTC-USDT",
       "timeframe": "1H"
     }
@@ -1631,8 +1649,28 @@
     {
       "t": "2026-09-27 11:00:00+00:00",
       "equity": 10593.900847737978
+    },
+    {
+      "t": "2026-09-27 12:00:00+00:00",
+      "equity": 10593.900847737978
+    },
+    {
+      "t": "2026-09-27 13:00:00+00:00",
+      "equity": 10564.312351791328
+    },
+    {
+      "t": "2026-09-27 14:00:00+00:00",
+      "equity": 10494.614394878781
+    },
+    {
+      "t": "2026-09-27 15:00:00+00:00",
+      "equity": 10494.614394878781
+    },
+    {
+      "t": "2026-09-27 16:00:00+00:00",
+      "equity": 10494.614394878781
     }
   ],
-  "last_price": 84891.9,
-  "updated_at": "2026-09-27T12:28:35.190197+00:00"
+  "last_price": 84438.2,
+  "updated_at": "2026-09-27T17:13:12.402416+00:00"
 }
