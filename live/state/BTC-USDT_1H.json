@@ -1,16 +1,8 @@
 {
-  "balance": 10232.718433990463,
+  "balance": 10123.664739760176,
   "initial_balance": 10000.0,
-  "position": {
-    "direction": -1,
-    "entry_price": 83508.8,
-    "entry_time": "2026-09-29 21:00:00+00:00",
-    "atr_at_entry": 431.1101686175465,
-    "stop_price": 84371.0203372351,
-    "target_price": 82215.46949414736,
-    "trailing_extreme": 82960.1
-  },
-  "last_processed_ts": "2026-09-30 07:00:00+00:00",
+  "position": null,
+  "last_processed_ts": "2026-09-30 14:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -385,6 +377,45 @@
       "exit_reason": "trailing_stop",
       "pnl_pct": -1.1018308821946432,
       "pnl_usdt": -114.00337619944185,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "short",
+      "entry_time": "2026-09-29 21:00:00+00:00",
+      "exit_time": "2026-09-30 11:00:00+00:00",
+      "entry_price": 83508.8,
+      "exit_price": 83914.8,
+      "exit_reason": "opposite_signal",
+      "pnl_pct": -0.5861763071676295,
+      "pnl_usdt": -59.98177103922717,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-30 11:00:00+00:00",
+      "exit_time": "2026-09-30 12:00:00+00:00",
+      "entry_price": 83914.8,
+      "exit_price": 84523.24118551877,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": 0.6250701729835108,
+      "pnl_usdt": 63.58674265626723,
+      "result": "WIN",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-09-30 12:00:00+00:00",
+      "exit_time": "2026-09-30 13:00:00+00:00",
+      "entry_price": 85285.5,
+      "exit_price": 84432.15252941029,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -1.100577437653183,
+      "pnl_usdt": -112.65866584732794,
       "result": "LOSS",
       "symbol": "BTC-USDT",
       "timeframe": "1H"
@@ -1994,8 +2025,36 @@
     {
       "t": "2026-09-30 07:00:00+00:00",
       "equity": 10232.718433990463
+    },
+    {
+      "t": "2026-09-30 08:00:00+00:00",
+      "equity": 10232.718433990463
+    },
+    {
+      "t": "2026-09-30 09:00:00+00:00",
+      "equity": 10232.718433990463
+    },
+    {
+      "t": "2026-09-30 10:00:00+00:00",
+      "equity": 10232.718433990463
+    },
+    {
+      "t": "2026-09-30 11:00:00+00:00",
+      "equity": 10172.736662951236
+    },
+    {
+      "t": "2026-09-30 12:00:00+00:00",
+      "equity": 10236.323405607503
+    },
+    {
+      "t": "2026-09-30 13:00:00+00:00",
+      "equity": 10123.664739760176
+    },
+    {
+      "t": "2026-09-30 14:00:00+00:00",
+      "equity": 10123.664739760176
     }
   ],
-  "last_price": 83307.2,
-  "updated_at": "2026-09-30T08:34:15.639149+00:00"
+  "last_price": 83800.5,
+  "updated_at": "2026-09-30T15:20:23.474676+00:00"
 }
