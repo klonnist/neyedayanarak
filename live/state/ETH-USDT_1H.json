@@ -1,16 +1,16 @@
 {
-  "balance": 8950.213041012234,
+  "balance": 8944.563582654899,
   "initial_balance": 10000.0,
   "position": {
-    "direction": -1,
-    "entry_price": 2684.45,
-    "entry_time": "2026-10-02 17:00:00+00:00",
-    "atr_at_entry": 21.115690366045413,
-    "stop_price": 2726.6813807320905,
-    "target_price": 2621.1029289018634,
-    "trailing_extreme": 2651.0
+    "direction": 1,
+    "entry_price": 2683.46,
+    "entry_time": "2026-10-03 14:00:00+00:00",
+    "atr_at_entry": 10.477958281730867,
+    "stop_price": 2662.504083436538,
+    "target_price": 2714.893874845193,
+    "trailing_extreme": 2684.99
   },
-  "last_processed_ts": "2026-10-03 12:00:00+00:00",
+  "last_processed_ts": "2026-10-03 16:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -463,6 +463,19 @@
       "exit_reason": "trailing_stop",
       "pnl_pct": -0.40282046265366345,
       "pnl_usdt": -36.19910699055072,
+      "result": "LOSS",
+      "symbol": "ETH-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "short",
+      "entry_time": "2026-10-02 17:00:00+00:00",
+      "exit_time": "2026-10-03 14:00:00+00:00",
+      "entry_price": 2684.45,
+      "exit_price": 2683.46,
+      "exit_reason": "opposite_signal",
+      "pnl_pct": -0.06312093724972759,
+      "pnl_usdt": -5.649458357334879,
       "result": "LOSS",
       "symbol": "ETH-USDT",
       "timeframe": "1H"
@@ -2380,8 +2393,24 @@
     {
       "t": "2026-10-03 12:00:00+00:00",
       "equity": 8950.213041012234
+    },
+    {
+      "t": "2026-10-03 13:00:00+00:00",
+      "equity": 8950.213041012234
+    },
+    {
+      "t": "2026-10-03 14:00:00+00:00",
+      "equity": 8944.563582654899
+    },
+    {
+      "t": "2026-10-03 15:00:00+00:00",
+      "equity": 8944.563582654899
+    },
+    {
+      "t": "2026-10-03 16:00:00+00:00",
+      "equity": 8944.563582654899
     }
   ],
-  "last_price": 2682.78,
-  "updated_at": "2026-10-03T13:04:27.834112+00:00"
+  "last_price": 2681.7,
+  "updated_at": "2026-10-03T17:17:09.683803+00:00"
 }
