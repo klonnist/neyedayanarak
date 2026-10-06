@@ -1,16 +1,16 @@
 {
-  "balance": 8974.70393036203,
+  "balance": 8900.084946680632,
   "initial_balance": 10000.0,
   "position": {
-    "direction": 1,
-    "entry_price": 2722.04,
-    "entry_time": "2026-10-06 14:00:00+00:00",
-    "atr_at_entry": 11.751783752339552,
-    "stop_price": 2698.5364324953207,
-    "target_price": 2757.2953512570184,
-    "trailing_extreme": 2723.0
+    "direction": -1,
+    "entry_price": 2702.13,
+    "entry_time": "2026-10-06 15:00:00+00:00",
+    "atr_at_entry": 12.608799198601012,
+    "stop_price": 2727.347598397202,
+    "target_price": 2664.303602404197,
+    "trailing_extreme": 2684.05
   },
-  "last_processed_ts": "2026-10-06 14:00:00+00:00",
+  "last_processed_ts": "2026-10-06 19:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -502,6 +502,19 @@
       "exit_reason": "trailing_stop",
       "pnl_pct": -0.5987781590085949,
       "pnl_usdt": -54.06228009617189,
+      "result": "LOSS",
+      "symbol": "ETH-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-10-06 14:00:00+00:00",
+      "exit_time": "2026-10-06 15:00:00+00:00",
+      "entry_price": 2722.04,
+      "exit_price": 2702.13,
+      "exit_reason": "opposite_signal",
+      "pnl_pct": -0.8314367165802028,
+      "pnl_usdt": -74.61898368139737,
       "result": "LOSS",
       "symbol": "ETH-USDT",
       "timeframe": "1H"
@@ -2715,8 +2728,28 @@
     {
       "t": "2026-10-06 14:00:00+00:00",
       "equity": 8974.70393036203
+    },
+    {
+      "t": "2026-10-06 15:00:00+00:00",
+      "equity": 8900.084946680632
+    },
+    {
+      "t": "2026-10-06 16:00:00+00:00",
+      "equity": 8900.084946680632
+    },
+    {
+      "t": "2026-10-06 17:00:00+00:00",
+      "equity": 8900.084946680632
+    },
+    {
+      "t": "2026-10-06 18:00:00+00:00",
+      "equity": 8900.084946680632
+    },
+    {
+      "t": "2026-10-06 19:00:00+00:00",
+      "equity": 8900.084946680632
     }
   ],
-  "last_price": 2722.04,
-  "updated_at": "2026-10-06T15:28:00.177027+00:00"
+  "last_price": 2692.07,
+  "updated_at": "2026-10-06T20:30:39.914975+00:00"
 }
