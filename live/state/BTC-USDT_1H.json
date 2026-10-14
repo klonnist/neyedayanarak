@@ -1,16 +1,16 @@
 {
-  "balance": 9535.319963470549,
+  "balance": 9468.092039387688,
   "initial_balance": 10000.0,
   "position": {
-    "direction": 1,
-    "entry_price": 83674.5,
-    "entry_time": "2026-10-13 05:00:00+00:00",
-    "atr_at_entry": 520.2997527451737,
-    "stop_price": 82633.90049450965,
-    "target_price": 85235.39925823553,
-    "trailing_extreme": 84166.3
+    "direction": -1,
+    "entry_price": 82739.0,
+    "entry_time": "2026-10-14 12:00:00+00:00",
+    "atr_at_entry": 453.2220895085686,
+    "stop_price": 83645.44417901714,
+    "target_price": 81379.3337314743,
+    "trailing_extreme": 82609.0
   },
-  "last_processed_ts": "2026-10-14 06:00:00+00:00",
+  "last_processed_ts": "2026-10-14 12:00:00+00:00",
   "trades": [
     {
       "direction": "long",
@@ -762,6 +762,32 @@
       "exit_reason": "trailing_stop",
       "pnl_pct": -0.9999004346140761,
       "pnl_usdt": -96.30667663481836,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "long",
+      "entry_time": "2026-10-13 05:00:00+00:00",
+      "exit_time": "2026-10-14 08:00:00+00:00",
+      "entry_price": 83674.5,
+      "exit_price": 83435.3,
+      "exit_reason": "opposite_signal",
+      "pnl_pct": -0.38586964965431336,
+      "pnl_usdt": -36.793905736461966,
+      "result": "LOSS",
+      "symbol": "BTC-USDT",
+      "timeframe": "1H"
+    },
+    {
+      "direction": "short",
+      "entry_time": "2026-10-14 08:00:00+00:00",
+      "exit_time": "2026-10-14 12:00:00+00:00",
+      "entry_price": 83435.3,
+      "exit_price": 83619.19790891085,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -0.3204077997092879,
+      "pnl_usdt": -30.43401834639917,
       "result": "LOSS",
       "symbol": "BTC-USDT",
       "timeframe": "1H"
@@ -3711,8 +3737,32 @@
     {
       "t": "2026-10-14 06:00:00+00:00",
       "equity": 9535.319963470549
+    },
+    {
+      "t": "2026-10-14 07:00:00+00:00",
+      "equity": 9535.319963470549
+    },
+    {
+      "t": "2026-10-14 08:00:00+00:00",
+      "equity": 9498.526057734087
+    },
+    {
+      "t": "2026-10-14 09:00:00+00:00",
+      "equity": 9498.526057734087
+    },
+    {
+      "t": "2026-10-14 10:00:00+00:00",
+      "equity": 9498.526057734087
+    },
+    {
+      "t": "2026-10-14 11:00:00+00:00",
+      "equity": 9498.526057734087
+    },
+    {
+      "t": "2026-10-14 12:00:00+00:00",
+      "equity": 9468.092039387688
     }
   ],
-  "last_price": 83446.1,
-  "updated_at": "2026-10-14T07:38:17.947688+00:00"
+  "last_price": 82739.0,
+  "updated_at": "2026-10-14T13:05:47.677844+00:00"
 }
