@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:10:27.064053+00:00",
+  "generated_at": "2026-10-18T22:26:21.261689+00:00",
   "disclaimer": "Sanal (paper) hesap simulasyonudur; gercek para/borsa hesabi kullanilmaz. Yatirim tavsiyesi degildir.",
   "profiles": [
     {
@@ -19,19 +19,11 @@
         "atr_at_entry": 287.51597338539204,
         "stop_price": 81653.43194677078,
         "target_price": 80215.85207984381,
-        "trailing_extreme": 80800.0
+        "trailing_extreme": 80680.5
       },
-      "last_price": 80876.8,
-      "updated_at": "2026-10-18T20:10:10.578333+00:00",
+      "last_price": 81221.1,
+      "updated_at": "2026-10-18T22:26:05.757444+00:00",
       "equity_curve": [
-        {
-          "t": "2026-10-06 08:00:00+00:00",
-          "equity": 9934.154576788256
-        },
-        {
-          "t": "2026-10-06 09:00:00+00:00",
-          "equity": 9934.154576788256
-        },
         {
           "t": "2026-10-06 10:00:00+00:00",
           "equity": 9934.154576788256
@@ -1223,6 +1215,14 @@
         {
           "t": "2026-10-18 19:00:00+00:00",
           "equity": 9386.59210283273
+        },
+        {
+          "t": "2026-10-18 20:00:00+00:00",
+          "equity": 9386.59210283273
+        },
+        {
+          "t": "2026-10-18 21:00:00+00:00",
+          "equity": 9386.59210283273
         }
       ]
     },
@@ -1246,7 +1246,7 @@
         "trailing_extreme": 82291.1
       },
       "last_price": 80876.8,
-      "updated_at": "2026-10-18T20:10:16.190159+00:00",
+      "updated_at": "2026-10-18T22:26:10.858059+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -2102,32 +2102,16 @@
       "id": "ETH-USDT_1H",
       "symbol": "ETH-USDT",
       "timeframe": "1H",
-      "balance": 9323.36,
+      "balance": 9188.21,
       "initial_balance": 10000.0,
-      "total_pnl": -676.64,
-      "total_pnl_pct": -6.766,
-      "win_rate_pct": 32.8,
-      "num_trades": 61,
-      "open_position": {
-        "direction": -1,
-        "entry_price": 2338.57,
-        "entry_time": "2026-10-18 19:00:00+00:00",
-        "atr_at_entry": 16.436674149541606,
-        "stop_price": 2371.4433482990835,
-        "target_price": 2289.2599775513754,
-        "trailing_extreme": 2329.04
-      },
-      "last_price": 2338.57,
-      "updated_at": "2026-10-18T20:10:21.684732+00:00",
+      "total_pnl": -811.79,
+      "total_pnl_pct": -8.118,
+      "win_rate_pct": 32.3,
+      "num_trades": 62,
+      "open_position": null,
+      "last_price": 2370.88,
+      "updated_at": "2026-10-18T22:26:16.052021+00:00",
       "equity_curve": [
-        {
-          "t": "2026-10-06 08:00:00+00:00",
-          "equity": 8974.70393036203
-        },
-        {
-          "t": "2026-10-06 09:00:00+00:00",
-          "equity": 8974.70393036203
-        },
         {
           "t": "2026-10-06 10:00:00+00:00",
           "equity": 8974.70393036203
@@ -3319,6 +3303,14 @@
         {
           "t": "2026-10-18 19:00:00+00:00",
           "equity": 9323.358541088495
+        },
+        {
+          "t": "2026-10-18 20:00:00+00:00",
+          "equity": 9323.358541088495
+        },
+        {
+          "t": "2026-10-18 21:00:00+00:00",
+          "equity": 9188.205761618605
         }
       ]
     },
@@ -3342,7 +3334,7 @@
         "trailing_extreme": 2329.04
       },
       "last_price": 2338.57,
-      "updated_at": "2026-10-18T20:10:27.062366+00:00",
+      "updated_at": "2026-10-18T22:26:21.260063+00:00",
       "equity_curve": [
         {
           "t": "2026-09-13 12:00:00+00:00",
@@ -4196,6 +4188,19 @@
     }
   ],
   "recent_trades": [
+    {
+      "direction": "short",
+      "entry_time": "2026-10-18 19:00:00+00:00",
+      "exit_time": "2026-10-18 21:00:00+00:00",
+      "entry_price": 2338.57,
+      "exit_price": 2370.131685373854,
+      "exit_reason": "trailing_stop",
+      "pnl_pct": -1.4496147378036173,
+      "pnl_usdt": -135.15277946989045,
+      "result": "LOSS",
+      "symbol": "ETH-USDT",
+      "timeframe": "1H"
+    },
     {
       "direction": "long",
       "entry_time": "2026-10-18 03:00:00+00:00",
